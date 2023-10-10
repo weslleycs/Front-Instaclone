@@ -1,0 +1,31 @@
+section.page-Principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #001324;
+}
+
+section.page-Principal h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+form.form-comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+
+button.form-comments {
+  background-color: #228cc4;
+}
+textarea.form-comments {
+  border-color: #228cc4;
+}
+
+.noUserCommentsPage {
+  margin-top: 1rem;
+  text-align: center;
+}

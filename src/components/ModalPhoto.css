@@ -1,0 +1,50 @@
+.modal-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 98;
+}
+
+.modal-fg {
+  width: 90vw;
+  position: relative;
+  padding: 3rem 1rem 1rem 1rem;
+  background-color: #001324;
+  color: white;
+  z-index: 99;
+  border-radius: 15px;
+}
+
+.modal-fg button {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border: none;
+  width: 100%;
+}
+
+.modal-fg button:hover {
+  background-color: #228cc4;
+}
+
+.modal-fg p {
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.modal-fg box-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+#modalRegister {
+  box-shadow: 4px 4px 1px #228cc4;
+  margin-bottom: 1.3rem;
+}

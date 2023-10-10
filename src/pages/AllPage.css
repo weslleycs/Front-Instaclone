@@ -1,0 +1,29 @@
+section.page-Principal {
+  min-height: 100vh;
+  max-width: 100%;
+  flex: 1 0 auto;
+}
+
+section.picture-back {
+  max-width: 100%;
+  background: url("/fondoSky.webp");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: calc(50% + 10px) calc(50% + 10px);
+}
+
+section.juistify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uno img {
+  height: 300px;
+}
+
+p.error-message {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
